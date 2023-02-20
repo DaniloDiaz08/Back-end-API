@@ -1,4 +1,4 @@
-const DB = require("../Database/Model");
+const DB = require("../models/modelsSeries");
 
 const getAllWorkouts = () => {
     return DB.workouts;
